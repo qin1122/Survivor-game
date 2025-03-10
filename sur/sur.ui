@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>surClass</class>
+ <widget class="QWidget" name="surClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>survivor.Q</string>
+  </property>
+  <widget class="QPushButton" name="name">
+   <property name="geometry">
+    <rect>
+     <x>239</x>
+     <y>150</y>
+     <width>751</width>
+     <height>200</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 42pt &quot;Century&quot;;
+color: rgba(255, 255, 255, 200);</string>
+   </property>
+   <property name="text">
+    <string>SURVIVOR.Q</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>490</y>
+     <width>261</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="new_game">
+      <property name="styleSheet">
+       <string notr="true">font: 11pt &quot;Century&quot;;</string>
+      </property>
+      <property name="text">
+       <string>NEW GAME</string>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="continue_2">
+      <property name="styleSheet">
+       <string notr="true">font: 11pt &quot;Century&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>CONTINUE</string>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="exit">
+      <property name="styleSheet">
+       <string notr="true">font: 11pt &quot;Century&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>EXIT</string>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QListView" name="listView">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>900</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/sur/res/bg.png);</string>
+   </property>
+  </widget>
+  <zorder>listView</zorder>
+  <zorder>name</zorder>
+  <zorder>verticalLayoutWidget</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="sur.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>exit</sender>
+   <signal>clicked()</signal>
+   <receiver>surClass</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>620</x>
+     <y>717</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>639</x>
+     <y>449</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

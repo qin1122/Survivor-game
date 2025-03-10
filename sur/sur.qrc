@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/sur">
+        <file>res/bg.png</file>
+    </qresource>
+</RCC>

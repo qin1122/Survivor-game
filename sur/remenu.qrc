@@ -1,0 +1,46 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>remenu/map_small.png</file>
+        <file>remenu/attack_range_up.png</file>
+        <file>remenu/belt_up.png</file>
+        <file>remenu/boot_up.png</file>
+        <file>remenu/chestplate_up.png</file>
+        <file>remenu/coin_get_up.png</file>
+        <file>remenu/get_range_up.png</file>
+        <file>remenu/glove_up.png</file>
+        <file>remenu/necklace_up.png</file>
+        <file>remenu/reborn_up.png</file>
+        <file>remenu/weapon_up.png</file>
+        <file>remenu/gameMenu_small.png</file>
+        <file>remenu/drop_coin.png</file>
+        <file>remenu/drop_exp.png</file>
+        <file>remenu/drop_hp.png</file>
+        <file>remenu/coin_small.png</file>
+        <file>remenu/enemy_close.png</file>
+        <file>remenu/enemy_far.png</file>
+        <file>remenu/player1_small_left.png</file>
+        <file>remenu/player2_small_left.png</file>
+        <file>remenu/block2.png</file>
+        <file>remenu/block1.png</file>
+        <file>remenu/player1_small.png</file>
+        <file>remenu/player2_small.png</file>
+        <file>remenu/belt2.png</file>
+        <file>remenu/boots2.png</file>
+        <file>remenu/chestplate2.png</file>
+        <file>remenu/gloves2.png</file>
+        <file>remenu/necklace2.png</file>
+        <file>remenu/weapon_player2.png</file>
+        <file>remenu/weapon_player2.png</file>
+        <file>remenu/belt.png</file>
+        <file>remenu/boots.png</file>
+        <file>remenu/chestplate.png</file>
+        <file>remenu/gloves.png</file>
+        <file>remenu/necklace.png</file>
+        <file>remenu/weapon_player1.png</file>
+        <file>remenu/player1_big.png</file>
+        <file>remenu/player2_big.png</file>
+        <file>remenu/coin.png</file>
+        <file>remenu/gameMenu.png</file>
+        <file>remenu/map.png</file>
+    </qresource>
+</RCC>
